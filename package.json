@@ -1,0 +1,31 @@
+{
+  "name": "codetrekker-main",
+  "version": "1.0.0",
+  "description": "Engineered a web-based dashboard using HTML, CSS, and JavaScript, implementing asynchronous data fetching and dynamic DOM manipulation to present real-time coding performance insights. Parsed and visualized user data from CodeTrekker and LeetCode, including question-level activity, submission timelines, problem difficulty distribution, and topic-specific strengths and weaknesses. Designed and developed interactive UI components to filter, categorize, and interpret coding trends, enabling deeper analysis of problem-solving behavior and continuous skill development.",
+  "main": "proxy-server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node proxy-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
+    "framer-motion": "^10.16.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5"
+  }
+}
