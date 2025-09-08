@@ -8,7 +8,7 @@ const PORT = 3001;
 app.use(cors());
 app.use(express.json());
 
-app.post("/leetcode", async (req, res) => {
+app.post(["/leetcode", "/api/leetcode"], async (req, res) => {
   try {
     const response = await fetch("https://leetcode.com/graphql/", {
       method: "POST",

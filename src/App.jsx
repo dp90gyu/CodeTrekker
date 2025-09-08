@@ -85,7 +85,7 @@ function App() {
         variables: { username }
       })
 
-      const response = await fetch('/leetcode', {
+      const response = await fetch('/api/leetcode', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: graphql,
